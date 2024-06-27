@@ -1,8 +1,8 @@
 /* eslint-disable no-underscore-dangle */
 export default class HolbertonClass {
   /**
-   * @param {number} size - stds number
-   * @param {string} location - class location
+   * @param {number} size - students in class
+   * @param {string} location - student's location of class
    */
   constructor(size, location) {
     this.size = size;
