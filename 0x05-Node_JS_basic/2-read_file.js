@@ -1,10 +1,10 @@
-const files = require('files');
+const fs = require('fs');
 
 function countStudents(path) {
   let content;
 
   try {
-    content = files.readFileSync(path);
+    content = fs.readFileSync(path);
   } catch (err) {
     throw new Error('Cannot load the database');
   }
